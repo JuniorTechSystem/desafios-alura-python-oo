@@ -1,4 +1,5 @@
 class Livros:
+    
     def __init__ (self, titulo, autor, ano_publicacao):
         self.titulo = titulo
         self.autor = autor
@@ -20,7 +21,8 @@ def emprestar_classe(self):
 
 livro3 = Livros('The para method', 'Tiago Forte', 2023)
 print(f'Antes de emprestar o livro: O livro está disponível? {livro3.disponivel}')
-
 livro3.emprestar_classe()
 
 print(f'Depois de emprestar: O livro está disponível? {livro3.disponivel}')
+
+
